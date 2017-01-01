@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./include/css/style.css" />
+        <link rel="shortcut icon" href="./favicon.png">
+        <title>2048</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="title">2048</h1>
+            <div class="score-container">
+                <div class="score">0</div>
+                <div class="best">0</div>
+            </div>
+        </header>
+
+        <p class="restart">New game</p>
+
+        <p class="explanation">Use the arrow keys to move the boxes. When 2 boxes with the same number are side by side, they come together in one!</p>
+
+        <div class="grid-container">
+        </div>
+
+        <script type="text/javascript" src="./include/jQuery/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="./include/js/main.js"></script>
+        <script>$(document).mygame(100);</script>
+    </body>
+</html>
